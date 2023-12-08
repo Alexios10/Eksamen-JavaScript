@@ -1,0 +1,129 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    background-color: rgb(30, 0, 0);
+}
+#container{
+    width: 968px;
+    height: 660px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    overflow: hidden;
+    font-size: 1.1em;
+}
+
+#main-heading{
+    text-align: center;
+    font-family: sans-serif;
+}
+#panel-div{
+    padding: 1rem;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border: 1px solid rgb(50, 50, 50);
+    border-bottom: 50px solid rgb(50, 50, 50);
+    border-radius: 25px;
+    right: 30px;
+    bottom: 0px;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+}
+
+#adult-cats-div{
+    top: 50px;
+    left: 10px;
+}
+#children-cats-div{
+    top: 100px;
+    left: 10px;
+}
+#miaow-miaow{
+    position: absolute;
+    height: 240px;
+    bottom: 0px;
+    left: 250px;
+}
+#child-1, #child-2, #child-3{
+    position: absolute;
+    bottom: 0;
+}
+#child-1{
+    left: 250px;
+    height: 100px;
+}
+#child-2{
+    left: 170px;
+    height: 110px;
+}
+#child-3{
+    left: 120px;
+    height: 70px;
+}
+#panel-heading{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    margin-top: 0;
+}
+#happy-cat{
+    position: absolute;
+    height: 230px;
+    bottom: 0px;
+    left: -30px;
+}
+#adult-cats-div{
+    margin-bottom: 10px;
+}
+#buy-btn{
+    border: 1px solid rgb(75, 150, 75);
+    background-color: rgb(90, 180, 90);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+    font-size: 1.2rem;
+    width: 200px;            
+}
+[value="+"], [value="-"]{
+    cursor: pointer;
+    width: 32px;
+}
+article{
+    position: absolute;
+}
+article img{
+    height: 30px;
+}
+article:nth-child(1) {
+    left: 10px;
+    top: 560px;          
+    z-index: 999;  
+}
+article:nth-child(2) {
+    left: 330px;
+    top: 580px;          
+    z-index: 999;  
+}
+article:nth-child(3) {
+    left: 100px;
+    top: 625px;          
+    z-index: 999; 
+}
+article:nth-child(4) {
+    left: 170px;
+    top: 625px;          
+    z-index: 999; 
+}
+article:nth-child(5) {
+    left: 240px;
+    top: 625px;          
+    z-index: 999;
+}
+#summary-div p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

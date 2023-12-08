@@ -1,0 +1,88 @@
+html, body{
+    margin: 0;
+    height: 100%;
+    background-color: rgb(0, 0, 30);
+}
+#container{
+    width: 968px;
+    height: 660px;
+    margin: auto;
+    background-color: rgb(100, 225, 70);
+    position: relative;
+    overflow: hidden;
+    font-size: 1.1em;
+    font-family: sans-serif;
+}
+#pond{
+    position: absolute;
+    bottom: 0;
+    width: 968px;
+    height: 150px;
+    background-color: rgb(28,163,236);
+    border-top: 1px solid rgb(50, 112, 35);
+}
+
+#eskilpadde, #geir-geit, #miaow-miaow{
+    position: absolute;
+}
+
+#eskilpadde{
+    height: 50px;
+    top: 150px;
+    left: 0px;
+}
+
+#miaow-miaow{
+    height: 70px;
+    top: 250px;
+    left: 0px;
+}
+
+#geir-geit{
+    height: 85px;
+    top: 380px;
+    left: 0px;
+    transition: all 0.5s;
+}       
+
+#main-heading{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#building{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 180px;            
+}
+
+#move-miaows-left-leg-btn, #move-miaows-right-leg-btn{
+    height: 75px;
+    position: absolute;
+    top: 10px;
+    border: 1px solid rgb(50, 50, 50);
+    background-color: rgb(50, 50, 50);
+    color: rgb(255, 255, 255);
+}
+
+#move-miaows-left-leg-btn{
+    left: 10px;
+}   
+
+#move-miaows-right-leg-btn{
+    left: 200px;
+}
+
+#finish-line{
+    height: 380px;
+    width: 5px;
+    background-color: brown;
+    position: absolute;
+    top: 130px;
+    left: 790px;
+}
+
+#winner-status{
+    text-align: center;
+}
